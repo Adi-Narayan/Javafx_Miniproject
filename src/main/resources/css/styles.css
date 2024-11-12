@@ -1,0 +1,88 @@
+/* Root styling */
+.layout {
+    -fx-background-color: #f5f5f5;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* GridPane styling */
+.grid {
+    -fx-padding: 20px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-alignment: center;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-min-width: 100px;
+    -fx-background-radius: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 3, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #0D47A1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 2, 0, 0, 1);
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Welcome label specific styling */
+#welcomeLabel {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1565C0;
+    -fx-padding: 0 0 20px 0;
+}
+
+/* Logout button specific styling */
+#logoutBtn {
+    -fx-background-color: #f44336;
+}
+
+#logoutBtn:hover {
+    -fx-background-color: #d32f2f;
+}
+
+#logoutBtn:pressed {
+    -fx-background-color: #b71c1c;
+}
+
+/* Continue button specific styling */
+#contin {
+    -fx-background-color: #4CAF50;
+}
+
+#contin:hover {
+    -fx-background-color: #388E3C;
+}
+
+#contin:pressed {
+    -fx-background-color: #1B5E20;
+}
+
+/* Text input styling (if you have any) */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #BDBDBD;
+    -fx-border-radius: 4px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2px;
+}
